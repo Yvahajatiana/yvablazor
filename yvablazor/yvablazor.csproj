@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/48789efc-bea9-4e36-a9fa-4d615dcffc55/resourceGroups/yvablazor_group/providers/microsoft.insights/components/yvablazor-insights</ApplicationInsightsResourceId>
+    <UserSecretsId>2cb71682-c71c-44ec-b3a0-d01cba1b7cfb</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
